@@ -367,6 +367,25 @@ a {
   color: #cbd5f5;
 }
 
+.certificate-image {
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.certificate-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.certificate-image:hover img {
+  transform: scale(1.02);
+}
+
 .muted {
   color: #9ca3af;
 }
